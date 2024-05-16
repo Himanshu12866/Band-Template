@@ -96,7 +96,8 @@
   }
   form .input-box-1 input {
     width: 350px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
+
   }
 
   form .input-50 {
