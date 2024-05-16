@@ -1,0 +1,284 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.main-header-div {
+  background-image: rgba(0, 0, 0, 0.9);
+  background-position: center;
+  background-size: cover;
+}
+.navbar {
+  background-color: black;
+}
+.main-header .navbar {
+  position: sticky;
+  top: 0;
+}
+
+.main-section {
+  margin-top: 60px;
+  height: 100vh;
+  text-align: center;
+}
+.main-section div {
+  font-size: 20px;
+  color: grey;
+}
+.main-section .row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: justify;
+  padding-left: 150px;
+  margin-right: 150px;
+}
+.row1 .main-section-text {
+  font-size: 15px;
+}
+.row2 {
+  margin-top: 40px;
+  display: flex;
+  padding-left: 180px;
+  margin-right: 180px;
+
+  justify-content: space-evenly;
+}
+.row2 .photo img {
+  width: 100%;
+  padding: 10px;
+}
+.main-section-2 {
+  width: 100%;
+  height: 150vh;
+  background-color: black;
+  text-align: center;
+  padding-top: 80px;
+}
+.main-section-2 .row3 {
+  color: white;
+
+  font-size: 20px;
+}
+.main-section-2 .row3 p {
+  color: grey;
+}
+.main-section-2 .row4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.main-section-2 .row4 .textbox {
+  width: 75%;
+  height: 120px;
+  background-color: white;
+  text-align: left;
+}
+.main-section-2 .row4 .textbox div {
+  border-bottom: 1px solid grey;
+  padding: 8px;
+}
+.main-section-2 .row4 .textbox div span {
+  padding-left: 10px;
+  padding-right: 11px;
+}
+.row4 .textbox .btn {
+  background-color: tomato;
+  border-radius: 0;
+  color: white;
+  font-size: 10px;
+  padding: 1px;
+}
+.main-section-2 .row5 {
+  display: flex;
+  justify-content: space-evenly;
+
+  height: auto;
+
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 80px;
+}
+.main-section-2 .row5 .images {
+  margin: 10px;
+  height: 480px;
+  background-color: white;
+}
+
+.row5 .images .image-1 img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.main-section-2 .row5 .images h4 {
+  padding: 10px;
+  text-align: left;
+}
+.main-section-2 .row5 .images p {
+  padding: 15px;
+  text-align: left;
+  margin-top: -10px;
+}
+.main-section-2 .row5 .images .buy-btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 150px;
+  transition: 0.18s linear;
+}
+.main-section-2 .row5 .images .buy-btn:hover {
+  background-color: rgba(0, 0, 0, 0.485);
+  color: black;
+  font-weight: 600;
+}
+/* header{
+ animation: hue 1s infinite alternate ;
+}
+@keyframes hue {
+  100%{
+    filter: hue-rotate(360deg);
+  }
+  */
+/* } */
+.input-box {
+  background-color: white;
+  margin-top: 40px;
+  height: 450px;
+  text-align: center;
+}
+.input-box .input-row {
+  display: flex;
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px;
+  justify-content: space-around;
+}
+.input-box .input-row div {
+  margin-top: 15px;
+}
+.input-box .input-row div span {
+  padding-right: 10px;
+  padding-top: 30px;
+}
+.input-col-row {
+  display: flex;
+  justify-content: space-between;
+}
+.input-col-row .input-col-row-col {
+  width: 200px;
+  padding: 10px;
+}
+.input-col-row .input-col-row-col input {
+  padding: 10px;
+  width: 180px;
+}
+.input-row .input-col .outer-input input {
+  width: 100px;
+}
+
+.d-flex .mt-2 .text-left span {
+  padding-right: 10px;
+}
+.input-box-1 input {
+  padding: 8px;
+  margin-right: 10px;
+}
+.form-control {
+  padding: 8px;
+}
+section iframe {
+  width: 100%;
+  padding: 10px;
+  height: 600px;
+  margin-top: 20px;
+}
+.input-box .contact-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  text-align: left;
+}
+
+.footer-class {
+  width: 100%;
+  height: 300px;
+  margin-top: 30%;
+  padding-top: 70px;
+  background-color: black;
+}
+footer.footer-class span {
+  padding: 5px;
+  font-size: 25px;
+  color: white;
+}
+footer.footer-class span:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.footer-class .copy {
+  position: absolute;
+  display: block;
+  margin-top: 50px;
+  font-size: 2px;
+  text-decoration: underline;
+  padding: 5px;
+}
+.navbar-brand:hover {
+  /* background-color: rgba(173, 216, 230, 0.745); */
+  color: red;
+  font-weight: 0;
+}
+.collapse ul li a:hover {
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.nav-item .nav-link:hover {
+  color: rgb(255, 255, 255);
+}
+.main-section-2 .row5 .modal .modal-dialog .modal-content {
+  background-color: rgba(0, 0, 0, 0.76);
+  position: relative;
+  color: white;
+}
+.main-section-2 .row5 .modal .modal-dialog .modal-content .btn-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  padding: 4px;
+  background-color: red;
+}
+.main-section-2 .row5 .modal .modal-dialog .modal-content .modal-body {
+  text-align: left;
+  color: white;
+  font-weight: 600;
+}
+.main-section-2 .row5 .modal .modal-dialog .modal-content .modal-body input {
+  background-color: grey;
+  color: white;
+}
+.row2 .photo img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.row5 .images .image-1 img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.pre:focus{
+  border: 1px solid grey;
+  outline: 2px solid white;
+}
+.next:focus{
+  border: 1px solid grey;
+  outline: 2px solid white;
+}
+
+
