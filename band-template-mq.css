@@ -42,7 +42,9 @@
     margin-left: -200px;
   }
   .main-section-2 {
-    height: auto;
+    height: 250vh;
+    position: absolute;
+    
   }
 
   .main-section-2 .row5 {
@@ -76,6 +78,7 @@
 
   .input-box {
     display: block;
+    margin-top: 400px;
   }
   .input-box .contact-box {
     display: flex;
