@@ -43,7 +43,7 @@
   }
   .main-section-2 {
     height: 250vh;
-    position: absolute;
+    /* position: absolute; */
     
   }
 
@@ -78,13 +78,15 @@
 
   .input-box {
     display: block;
-    margin-top: 400px;
+    margin-top:600px;
+    width: 250px;
   }
   .input-box .contact-box {
     display: flex;
     flex-direction: column;
     width: 100%;
     overflow: hidden;
+    margin-top: 600px;
   }
   .input-box .contact-box .text-left {
     padding: 10px;
@@ -94,15 +96,15 @@
   .input-box .contact-box form .input-box-1 {
     display: flex;
     flex-direction: column;
-    margin-left: -20px;
+    margin-left: -40px;
     margin-right: 20px;
-    width: 100%;
+    width: 250px;
   }
   form .input-box-1 input {
-    width: 300px;
+    width: 250px;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: -20px;
+    margin-left: -40px;
     margin-right: 20px;
 
   }
@@ -114,14 +116,16 @@
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  section iframe {
-    height: 200px;
+  section  {
+    /* height: 200px;
     margin-bottom: 200px;
+    margin-top: 600px; */
+   visibility: hidden;
   }
   .footer-class {
     width: 100%;
     height: 250px;
-    margin-top: 80%;
+    margin-top: 150%;
     padding-top: 70px;
     background-color: black;
     border-radius: 20px;
