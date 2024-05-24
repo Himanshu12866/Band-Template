@@ -206,7 +206,7 @@ section iframe {
 .footer-class {
   width: 100%;
   height: 300px;
-  margin-top: 30%;
+  margin-top:50px;
   padding-top: 70px;
   background-color: black;
 }
@@ -281,4 +281,36 @@ footer.footer-class span:hover {
   outline: 2px solid white;
 }
 
+.contact{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+.contact .row{
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+}
+/* .contact .row .col-lg-6{
+  padding: 10px;
+  margin: 10px;
+  padding-right: 10px;
+} */
+.contact .row .col-lg-6 div{
+  padding: 5px;
+ 
+}
+.contact .row .col-lg-6 div span{
+  padding-right: 10px;
+}
+.row .outer-input{
+ 
+  margin: 12px;
+  margin-top: -10px;
+}
+.row .outer-input button{
+  margin-top: 10px;
+  padding: 10px;
+}
 
